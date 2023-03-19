@@ -1,0 +1,23 @@
+
+/*h1{
+    color: red;
+}*/
+
+*{
+    color: blue;
+}
+
+h1{
+    color: red;
+}
+
+/* class seciciler */
+.paragraf{
+    text-align: center;
+} 
+
+/* ID seciciler*/
+
+#p1{
+    background-color: aqua;
+}

@@ -7,25 +7,93 @@
     <title>FORM</title>
 </head>
 <body>
-    <h1>FORM</h1>
+   
     <form>
-        <label for="">E-Posta</label>
-        <input type="text">
-        <button>Kaydet</button>
-    </form>
-    <form>
+        <label for="isim">Lütfen isminizi giriniz</label>
+        <input id="isim" type="text" 
+        minlength="1"
+        maxlength="10"
+        >
+        <br>
+        <br/>
         <label for="">Lütfen numara giriniz</label>
-        <input type="number">
-       
-    </form>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi labore unde adipisci ad vitae veniam atque neque inventore omnis magnam, tenetur odit fugiat. Ipsum, assumenda nesciunt eum illum amet odio.</p>
-  
-<form>
-        <label for="">isim-Sehir</label>
-       <input type="url" >
-       <button>Hemen Kaydet</button>
+        <input type="number"
+        max="5"
+        min="1">
+        <br>
+        <br/>
+        <label>E-mail</label>
+        <input type="email" required />
+        
+        <br>
+        <br/>
+        <label>Lütfen sifrenizi giriniz</label>
+        <input type="password">
+        <br>
+        <br/>
+        <label>Lütfen web sitenizi giriniz</label>
+        <input type="url">
+        <br>
+        <br/>
+        <label>Lütfen tel numaranizi giriniz</label>
+        <input type="tel" >
+        <br>
+        <br/>
      
+        <input type="radio" name="Cinsiyet">
+        <label for="">Erkek</label>
+        <br>
+        <input type="radio" name="Cinsiyet">
+        <label for="">Kadin</label>
+        <br>
+        <input type="radio" name="Cinsiyet">
+        <label for="">Söylemek istemiyorum</label>
+        <br>
+        <br/>
+        <input type="checkbox" name="hobilerim">
+        <label for="">Futbol</label>
+        <br>
+        <input type="checkbox" name="hobilerim">
+        <label for="">Basketbol</label>
+        <br>
+        <input type="checkbox" name="hobilerim">
+        <label for="">voleybol</label>
+        <br>
+        <br/>
+        <label for="">Renk secin</label>
+        <input type="color">
+        <br>
+        <br/>
+        <label for="">Aralik secin</label>
+        <input type="range" step="5">
+        <br>
+        <br/>
+        <br/><label for="">Dosya secin</label>
+        <input type="file">
+        <br>
+        <br/>
+        <br/><label for="">Lütfen tarih giriniz</label>
+        <input type="date">
+        <br>
+        <br/>
+        <select name="diller" id="">
+            <option value="" selected disabled>Lütfen dil seciniz</option>
+            <option value="" >EN</option>
+            <option value="">TR</option>
+            <option value="">FR</option>
+            <option value="">ES</option>
+        </select>
+        <br>
+        <br/>
+        <input type="submit" value="Formu gönder">
+        <input type="reset" value="Formu temizle">
+        <input type="button" value="buton">
+        <button>buton</button>
+
+
+
     </form>
+
 
 </body>
 </html>
